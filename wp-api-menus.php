@@ -6,7 +6,7 @@
  *
  * Version:     1.3.1
  *
- * Author:      Jfduvers and Fulvio Notarstefano
+ * Author:      JFDUVERS | Fulvio Notarstefano
  * Author URI:  https://github.com/unfulvio
  *
  * Text Domain: wp-api-menus
