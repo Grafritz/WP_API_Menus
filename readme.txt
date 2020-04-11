@@ -1,6 +1,6 @@
 === WP API Menus ===
-Contributors: nekojira
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=P64V9NTEYFKDL
+Contributors: nekojira, Grafritz
+Donate link Author : https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=P64V9NTEYFKDL
 Tags: wp-api, wp-rest-api, json-rest-api, json, menus, rest, api, menu-routes
 Requires at least: 3.6.0
 Tested up to: 4.4.2
@@ -29,7 +29,7 @@ You can alter the data arrangement of each individual menu items and children us
 
 In V1 the routes are located by default at `wp-json/menus/` etc.
 
-In V2 the routes by default are at `wp-json/wp-api-menus/v2/` (e.g. `wp-json/wp-api-menus/v2/menus/`, etc.) since V2 encourages prefixing and version namespacing.
+In V2 the routes by default are at `wp-json/wp/v2/` (e.g. `wp-json/wp/v2/menus/`, etc.) since V2 encourages prefixing and version namespacing.
 
 == Installation ==
 
@@ -49,6 +49,8 @@ There's no such thing.
 = Will this plugin do 'X' ? =
 
 You can submit a pull request to:
+https://github.com/Grafritz/WP_API_Menus
+or 
 https://github.com/unfulvio/wp-api-menus
 However, menu data organization in json is a bit arbitrary and subjective, and that's why probably hasn't made it into WP API by the time of writing. You could also fork this plugin altogether and write your json output for a specific use case.
 
